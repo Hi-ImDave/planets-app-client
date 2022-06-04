@@ -1,33 +1,20 @@
-Astral by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+# Planets API Client
+Henry's Space Odyssey Planets API is an educational API that currently contains facts and information about the planets within our solar system
 
 
-First of its kind on H5U! Astral features a flat, minimalistic design, a fully animated
-interface (with noscript fallbacks), and styling for all basic page elements (including
-blockquotes, tables and lists). Enjoy!
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+## How It's Made:
 
-(* = Not included)
+**Tech used:** HTML, CSS, JavaScript, Node, Express, Heroku
 
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
+Client side code for Planets API. 
 
-AJ
-aj@lkn.io | @ajlkn
+source(s): https://space-facts.com/planets/
 
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+## Optimizations
 
+Each planet in database can have an array of facts (should each fact be its own object?). Facts can be pulled at random depending on the planet being viewed. Will be adding dwarf planets, solar systems, galaxies, moons and universe information.
 
-Credits:
+## Lessons Learned:
 
-	Demo Images:
-		Unsplash (unsplash.com)
-
-	Icons:
-		Font Awesome (fontawesome.io)
-
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+Learned how to fetch using async/await 
